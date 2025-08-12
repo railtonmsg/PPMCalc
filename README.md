@@ -26,14 +26,14 @@ Como usar
 ------------------------------------------------------------
 Estrutura esperada da planilha
 - Colunas obrigatórias (nomes exatos):
-    Alignment ID
-    Average Rt(min)
-    Average Mz
-    Metabolite name
-    Adduct type
-    Formula
-    Ontology
-    SMILES
+    Alignment ID;
+    Average Rt(min);
+    Average Mz;
+    Metabolite name;
+    Adduct type;
+    Formula;
+    Ontology;
+    SMILES;
     MS/MS spectrum
 - Colunas de replicatas/condições:
     Todas que contêm 'Average' ou 'Stdev' serão detectadas automaticamente.
