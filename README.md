@@ -32,7 +32,7 @@ Estrutura esperada da planilha
 - Colunas de replicatas/condições:
     Todas que contêm 'Average' ou 'Stdev' serão detectadas automaticamente.
 
-Linhas com Formula vazia ou Metabolite name = "Unknown" são ignoradas.
+OBS: Linhas com Formula vazia ou Metabolite name = "Unknown" são ignoradas.
 
 Adutos suportados
 
