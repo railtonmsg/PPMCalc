@@ -17,9 +17,9 @@ Como usar
 3. Escolha a opção 1 para ver as planilhas disponíveis.
 4. Digite o número da planilha que quer processar.
 5. O script cria um arquivo resultado_<nome_da_planilha>.xlsx com as colunas originais e:
-     - Massa Teórica
-     - Massa Expressa
-     - Erro PPM
+- Massa Teórica
+- Massa Expressa
+- Erro PPM
 
 Estrutura esperada da planilha
 - Colunas obrigatórias (nomes exatos):
