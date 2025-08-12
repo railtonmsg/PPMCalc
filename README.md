@@ -69,5 +69,6 @@ Observações
 - Não recalcula m/z pela carga — usa o valor de Average Mz informado na planilha.
 
 Créditos
+
 Autores: Railton Marques, Fernando Zanchi — LABIOQUIM/CEBIO‑FIOCRUZ/RO (2024).
 
