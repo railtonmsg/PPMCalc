@@ -25,8 +25,6 @@ Como usar
 
 ------------------------------------------------------------
 Estrutura esperada da planilha
-
-- Cabeçalho na linha 4 (no código, header=3).
 - Colunas obrigatórias (nomes exatos):
     Alignment ID
     Average Rt(min)
@@ -58,7 +56,6 @@ Saída
 - Arquivo Excel com o nome:
     resultado_<nome_da_planilha>.xlsx
 - Contém:
-    - Metadados da amostra
     - Massa teórica calculada
     - Massa expressa da planilha
     - Erro em ppm
