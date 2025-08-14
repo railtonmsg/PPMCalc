@@ -17,22 +17,6 @@ Como usar
 3. Escolha a opção 1 para ver as planilhas disponíveis.
 4. Digite o número da planilha que quer processar.
 5. O script cria um arquivo resultado_<nome_da_planilha>.xlsx.
-   
-Estrutura esperada da planilha
-- Colunas obrigatórias (nomes exatos):
-    Alignment ID;
-    Average Rt(min);
-    Average Mz;
-    Metabolite name;
-    Adduct type;
-    Formula;
-    Ontology;
-    SMILES;
-    MS/MS spectrum
-- Colunas de replicatas/condições:
-    Todas que contêm 'Average' ou 'Stdev' serão detectadas automaticamente.
-
-OBS: Linhas com Formula vazia ou Metabolite name = "Unknown" são ignoradas.
 
 Adutos suportados
 
@@ -43,21 +27,10 @@ O script ajusta a fórmula para os principais adutos, por exemplo:
 
 (A lista completa está no código, função remove_quantidade_hidrogenios.)
 
-Saída
-
-- Arquivo Excel com o nome:
-    resultado_<nome_da_planilha>.xlsx
-- Contém:
-     Massa teórica calculada
-     Massa expressa da planilha
-     Erro em ppm
-     Colunas Average_* e Stdev_* reorganizadas
-
 Observações
 
 - Se precisar adicionar novos elementos (ex.: Br, I, F) ou adutos, edite o dicionário no código.
 - O cálculo usa massas monoisotópicas.
-- Não recalcula m/z pela carga — usa o valor de Average Mz informado na planilha.
 
 Créditos
 
