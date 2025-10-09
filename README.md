@@ -25,7 +25,7 @@ O script ajusta a fórmula para os principais adutos, por exemplo:
 - Negativos: [M-H]-, [M-2H]-, [M+Cl]-, [M+FA-H]- etc.
 - Positivos: [M+H]+, [M+Na]+, [M+K]+, [M+NH4]+, [2M+Na]+ etc.
 
-(A lista completa está no código, função remove_quantidade_hidrogenios.)
+(A lista completa está no código na função 'remove_quantidade_hidrogenios'.)
 
 Observações
 
