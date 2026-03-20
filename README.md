@@ -1,6 +1,6 @@
 PPMCalc
 
-Script simples para calcular massa teórica e erro em ppm a partir de dados de LC-MS exportados para Excel.
+O programa calcula a massa teórica e o erro ppm a partir de dados de LC-MS exportados para Excel.
 Ajusta a fórmula química conforme o tipo de aduto informado e gera um novo arquivo .xlsx com os resultados.
 
 Requisitos
