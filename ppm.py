@@ -151,6 +151,9 @@ while True:
                 # Colunas average e Stdev
                 average_n = data_n.filter(like="Average")
                 stdev_n = data_n.filter(like="Stdev")
+                
+                data_n[average_n.columns] = data_n[average_n.columns].astype("object")
+                data_n[stdev_n.columns] = data_n[stdev_n.columns].astype("object")
 
                 for i in average_n.columns:
                     data_n.loc[0, i] = f"Average_{data_n.loc[0, i]}"
