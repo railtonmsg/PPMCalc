@@ -181,6 +181,7 @@ while True:
                     ontology = row.loc["Ontology"]
                     smiles = row.loc["SMILES"]
                     ms_ms_spectrum = row.loc["MS/MS spectrum"]
+                    inchikey = row.loc["INCHIKEY"]
                     
                     if pd.isna(formula):
                         continue
@@ -199,6 +200,7 @@ while True:
                     'Tipo de aduto': adduct_type,
                     'Fórmula': formula,
                     'Ontologia': ontology,
+                    'INCHIKEY': inchikey,
                     'SMILES': smiles,
                     'Massa Teórica': teorico,
                     'Massa Expressa': average_mz,
